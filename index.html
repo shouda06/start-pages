@@ -8,22 +8,29 @@
 
 <style>
 
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+ }
+
   /* ▼ ページ全体の基本スタイル */
   body {
     font-family: "MS PGothic", "ＭＳ Ｐゴシック", sans-serif; /* 2ch初期風フォント */
     background-color: #FFFFFF; /* 背景は白 */
-    margin: 20px; /* 余白 */
     font-size: 14px; /* 基本文字サイズ */
     line-height: 1.6; /* 行間 */
-    height: auto;
-    width: auto;
-  }
+    box-sizing: border-box;
+    padding: 10px;
+ }
 
   /* ▼ 全体を囲う枠。画像の幅に合わせたサイズ感 */
   .container {
-    height: 100%;
     width: 100%;
-  }
+    max-width: 100%;
+    height: auto;
+ }
 
   /* ▼ スレタイトル部分のスタイル */
   .thread-title {
